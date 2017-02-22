@@ -232,13 +232,13 @@ environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.AR.PAT
 environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.AR.PATTERN/value="${A.COMPILER.PATH}${A.COMPILER.AR.CMD}" ${A.COMPILER.AR.FLAGS} ${A.COMPILER.AR.EXTRA_FLAGS} "${A.ARCHIVE_FILE_PATH}" "${A.OBJECT_FILE}"
 environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN.1/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN.1/operation=replace
-environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN.1/value="C\:\\Programs\\sloeber\\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu\=atmega328p -o "C\:/Data/workspaces/arduino/secondCounter/Release/secondCounter.elf" 
+environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN.1/value="C\:\\Programs\\sloeber\\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu\=atmega328p -o "C\:/Data/repo/arduino/secondCounter/secondCounter/Release/secondCounter.elf"
 environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN.2/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN.2/operation=replace
 environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN.2/value=\ 
 environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN.3/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN.3/operation=replace
-environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN.3/value=\ "-LC\:/Data/workspaces/arduino/secondCounter/Release" -lm
+environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN.3/value="-LC\:/Data/repo/arduino/secondCounter/secondCounter/Release" -lm
 environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN/operation=replace
 environment/project/io.sloeber.core.toolChain.release.1734385567/A.RECIPE.C.COMBINE.PATTERN/value="${A.COMPILER.PATH}${A.COMPILER.C.ELF.CMD}" ${A.COMPILER.C.ELF.FLAGS} -mmcu\=${A.BUILD.MCU} ${A.COMPILER.C.ELF.EXTRA_FLAGS} -o "${A.BUILD.PATH}/${A.BUILD.PROJECT_NAME}.elf" ${A.OBJECT_FILES} "${A.BUILD.PATH}/${A.ARCHIVE_FILE}" "-L${A.BUILD.PATH}" -lm
